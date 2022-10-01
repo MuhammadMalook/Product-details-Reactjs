@@ -5,7 +5,7 @@ const Topbar = () => {
     return(
      <header>
         <nav className = {classes.Topbar}>
-            <img src="https://i.dlpng.com/static/png/197684_preview.png" alt="Amazon logo"></img>
+            <img src="https://i.dlpng.com/static/png/197684_preview.png" alt="Amazon logo" referrerPolicy="no-referrer"></img>
         </nav>
     </header> 
     )

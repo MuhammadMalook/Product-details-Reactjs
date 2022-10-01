@@ -6,6 +6,35 @@
 .ProductPreview > img {
   width: 100%;
 }
+@media (max-width: 767.98px) { 
+  .ProductPreview > img {
+    width: 100%;
+  }
+  .ProductPreview > .TimeSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .ProductPreview > .HeartBeatSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+  }
+  .HeartBeatSection > i {
+    color: red;
+    animation: beat 1s infinite;
+    
+  }
+ }
 
 .TimeSection {
   position: absolute;
